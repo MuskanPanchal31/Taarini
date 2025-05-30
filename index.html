@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Freelancer Registration Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form id="userForm">
+    <h1>Taarini Infotech LLP</h1>
+    <h2>Freelancer Registration Form</h2>
+
+    <label>Name:
+      <input type="text" name="name" placeholder="Name" required />
+    </label>
+
+    <label>Date of Birth:
+      <input type="date" name="dob" required />
+    </label>
+
+    <label>Place:
+      <input type="text" name="place" placeholder="Place" required />
+    </label>
+
+    <label>Gender:
+      <select name="gender" required>
+        <option value="">Select</option>
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+        <option value="Other">Other</option>
+      </select>
+    </label>
+
+    <label>Educational Qualification:
+      <input type="text" name="educational" placeholder="e.g., Graduate, Postgraduate, Diploma" required />
+    </label>
+
+    <label>Languages Known:</label>
+    <div class="dropdown">
+      <button type="button" class="dropbtn">Select Language</button>
+      <div class="dropdown-content">
+        <label><input type="checkbox" name="language" value="English" />English</label>
+        <label><input type="checkbox" name="language" value="Hindi" /> Hindi</label>
+        <label><input type="checkbox" name="language" value="Tamil" /> Tamil</label>
+        <label><input type="checkbox" name="language" value="Angika" /> Angika</label>
+        <label><input type="checkbox" name="language" value="Awadhi" /> Awadhi</label>
+        <label><input type="checkbox" name="language" value="Bhojpuri" /> Bhojpuri</label>
+        <label><input type="checkbox" name="language" value="Bodo" /> Bodo</label>
+        <label><input type="checkbox" name="language" value="Bundeli" /> Bundeli</label>
+        <label><input type="checkbox" name="language" value="Chhattisgarhi" /> Chhattisgarhi</label>
+        <label><input type="checkbox" name="language" value="Dogri" /> Dogri</label>
+        <label><input type="checkbox" name="language" value="Gondi" /> Gondi</label>
+        <label><input type="checkbox" name="language" value="Gujarati" /> Gujarati</label>
+        <label><input type="checkbox" name="language" value="Halbi" /> Halbi</label>
+        <label><input type="checkbox" name="language" value="Haryanvi" /> Haryanvi</label>
+        <label><input type="checkbox" name="language" value="Kannada" /> Kannada</label>
+        <label><input type="checkbox" name="language" value="Kashmiri" /> Kashmiri</label>
+        <label><input type="checkbox" name="language" value="Konkani" /> Konkani</label>
+        <label><input type="checkbox" name="language" value="Khasi" /> Khasi</label>
+        <label><input type="checkbox" name="language" value="Kumaoni" /> Kumaoni</label>
+        <label><input type="checkbox" name="language" value="Magahi" /> Magahi</label>
+        <label><input type="checkbox" name="language" value="Maithili" /> Maithili</label>
+        <label><input type="checkbox" name="language" value="Malayalam" /> Malayalam</label>
+        <label><input type="checkbox" name="language" value="Manipuri (Meitei)" /> Manipuri (Meitei)</label>
+        <label><input type="checkbox" name="language" value="Marathi" /> Marathi</label>
+      <label><input type="checkbox" name="language" value="Marwari" /> Marwari</label>
+        <label><input type="checkbox" name="language" value="Mizo" /> Mizo</label>
+        <label><input type="checkbox" name="language" value="Nagamese" /> Nagamese</label>
+        <label><input type="checkbox" name="language" value="Nepali" /> Nepali</label>
+        <label><input type="checkbox" name="language" value="Odia (Oriya)" /> Odia (Oriya)</label>
+        <label><input type="checkbox" name="language" value="Pahari" /> Pahari</label>
+      <label><input type="checkbox" name="language" value="Punjabi" /> Punjabi</label>
+        <label><input type="checkbox" name="language" value="Rajasthani" /> Rajasthani</label>
+        <label><input type="checkbox" name="language" value="Sanskrit" /> Sanskrit</label>
+        <label><input type="checkbox" name="language" value="Santali" /> Santali</label>
+        <label><input type="checkbox" name="language" value="Sikkimese" /> Sikkimese</label>
+        <label><input type="checkbox" name="language" value="Sindhi" /> Sindhi</label>
+      <label><input type="checkbox" name="language" value="Telugu" /> Telugu</label>
+        <label><input type="checkbox" name="language" value="Tulu" /> Tulu</label>
+        <label><input type="checkbox" name="language" value="Urdu" /> Urdu</label>
+        
+      </div>
+    </div>
+
+    <label>Other Language:
+      <input type="text" name="otherLanguage" placeholder="Text Language" required />
+    </label>
+
+    <label>Expertise Areas:</label>
+    <div class="dropdown">
+      <button type="button" class="dropbtn">Select Areas</button>
+      <div class="dropdown-content">
+        <label><input type="checkbox" name="expertise" value="Transcription" /> Transcription</label>
+        <label><input type="checkbox" name="expertise" value="Translation" /> Translation</label>
+        <label><input type="checkbox" name="expertise" value="Voice Recording" /> Voice Recording</label>
+        <label><input type="checkbox" name="expertise" value="Voice Over" /> Voice Over</label>
+        <label><input type="checkbox" name="expertise" value="Content Writing" /> Content Writing</label>
+        <label><input type="checkbox" name="expertise" value="Image Annotation" /> Image Annotation</label>
+        <label><input type="checkbox" name="expertise" value="Image Editing" /> Image Editing</label>
+        <label><input type="checkbox" name="expertise" value="Voice Dubbing" /> Voice Dubbing</label>
+        <label><input type="checkbox" name="expertise" value="Data Collection" /> Data Collection</label>
+        <label><input type="checkbox" name="expertise" value="QA/Review" /> QA/Review</label>
+      </div>
+    </div>
+
+    <label>Email ID:
+      <input type="email" name="email" placeholder="Email ID" required />
+    </label>
+
+    <label>Mobile No. (WhatsApp):
+      <input type="tel" name="mobile" placeholder="Mobile No" pattern="[0-9]{10}" required />
+    </label>
+
+    <label>Available Working Hours:
+      <input type="text" name="hours" placeholder="e.g., 4 hours/day, 20 hours/week" required />
+    </label>
+
+    <label>Expertise on Tools:
+      <input type="text" name="tools" placeholder="Ex. Loft, AMVIK, Praat" required />
+    </label>
+
+    <label>Past Project Experience:
+      <input type="text" name="project" placeholder="Brief info or client names (if allowed)" required />
+    </label>
+
+    <label>Own Equipment:
+      <input type="text" name="equipment" placeholder="eg. Laptop,PC,etc." required />
+    </label>
+
+    <label>Skills/Certifications:
+      <input type="text" name="skills" placeholder="software training, language certificates" required />
+    </label>
+    git init
+    <label>LinkedIn / YouTube/Portfolio (if any):
+      <input type="url" name="link" placeholder="Optional link" required />
+    </label>
+
+    <label>Referred By (if any):
+      <input type="text" name="referred" placeholder="Name of person/organization" required />
+    </label>
+
+    <button type="submit" class="submit-btn" onclick="return showPopup()">Submit</button>
+    <h3>Terms & Consent</h3>
+    <p>✅ Your personal data will be kept strictly confidential and used only for project-related communication. <br>
+       ✅ By submitting this form, you grant Taarini Infotech LLP permission to contact you via email or phone for suitable project opportunities. <br>
+       ✅ You may opt out at any time by notifying us.</p>
+  </form>
+
+  <script>
+    document.getElementById('userForm').addEventListener('submit', function(event) {
+      event.preventDefault();
+
+      // Get selected languages
+      const languageCheckboxes = document.querySelectorAll('input[name="language"]:checked');
+      const selectedLanguages = Array.from(languageCheckboxes).map(cb => cb.value);
+
+      // Get selected expertise areas
+      const expertiseCheckboxes = document.querySelectorAll('input[name="expertise"]:checked');
+      const selectedExpertise = Array.from(expertiseCheckboxes).map(cb => cb.value);
+
+      if (selectedLanguages.length === 0 || selectedExpertise.length === 0) {
+        alert("Please select at least one language and one expertise area.");
+        return;
+      }
+
+      alert(
+        "Your data has been saved!\n" +
+        "Languages: " + selectedLanguages.join(', ') + "\n" +
+        "Expertise Areas: " + selectedExpertise.join(', ')
+      );
+
+      this.reset();
+    });
+    function showPopup() {
+    const confirmed = confirm("Are you sure you want to submit?");
+    // If user clicks "OK", confirmed = true, form submits
+    // If user clicks "Cancel", confirmed = false, form submission is stopped
+    return confirmed;
+  }
+  </script>
+</body>
+</html>
